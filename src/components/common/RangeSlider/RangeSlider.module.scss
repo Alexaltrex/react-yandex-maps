@@ -1,0 +1,18 @@
+.rangeSlider {
+  padding: 0 44px;
+  height: 30px;
+  background: darkblue;
+  color: #FFF;
+  box-sizing: border-box;
+
+  & span {
+    span {
+      &:nth-child(3) {
+        transform: translate(-100%, -50%) !important;
+      }
+      &:nth-child(4) {
+        transform: translate(0%, -50%) !important;
+      }
+    }
+  }
+}

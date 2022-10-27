@@ -1,0 +1,33 @@
+.placeMarkCustom {
+
+}
+
+.hint {
+  //background: royalblue;
+  background: darkblue;
+  display: block;
+  margin: -3px -6px -5px;
+  padding: 1px 1px 3px;
+  width: 160px;
+
+  img {
+    display: block;
+    width: 160px;
+  }
+
+  .title {
+    padding: 0 3px;
+    margin-top: 2px;
+    color: #FFF;
+    text-align: center;
+    width: 160px!important;
+    max-width: 160px!important;
+
+  }
+
+  .period {
+    text-align: center;
+    color: #a5a5a5;
+  }
+
+}

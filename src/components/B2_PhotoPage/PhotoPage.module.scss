@@ -1,0 +1,42 @@
+.photoPage {
+  display: flex;
+
+  .left {
+    flex-grow: 1;
+    padding: 3px 8px 8px;
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100% ;
+    }
+
+    .title {
+      margin-top: 5px;
+    }
+
+    .item {
+      margin-top: 2px;
+
+      span {
+        font-weight: 900;
+      }
+
+    }
+
+
+  }
+
+  .right {
+    width: 500px;
+    height: calc(100vh - 50px);
+    box-sizing: border-box;
+    padding: 3px 3px 3px 0;
+
+    .map {
+      width: 497px;
+      height: calc(100vh - 50px - 6px - 30px);
+    }
+  }
+}

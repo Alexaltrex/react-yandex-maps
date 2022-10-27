@@ -1,0 +1,23 @@
+.header {
+  height: 50px;
+  background: royalblue;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  user-select: none;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    p {
+      margin-left: 5px;
+      color: #FFF;
+      font-weight: bold;
+    }
+
+  }
+
+}
