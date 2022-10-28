@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-yandex-maps/static/css/main.2d15248d.css",
-    "main.js": "/react-yandex-maps/static/js/main.fcf4554f.js",
+    "main.css": "/react-yandex-maps/static/css/main.59280a2e.css",
+    "main.js": "/react-yandex-maps/static/js/main.72b9cf57.js",
     "static/js/787.bfce0c05.chunk.js": "/react-yandex-maps/static/js/787.bfce0c05.chunk.js",
     "static/media/0.jpg": "/react-yandex-maps/static/media/0.a8c8cb348a999bdf5c0d.jpg",
     "static/media/1.jpg": "/react-yandex-maps/static/media/1.77fd713773752b35bdd5.jpg",
@@ -30,21 +30,35 @@
     "static/media/23.jpg": "/react-yandex-maps/static/media/23.c6fcab10d03f9269819a.jpg",
     "static/media/20.jpg": "/react-yandex-maps/static/media/20.6edf16c5db91b7b1d6b3.jpg",
     "static/media/18.jpg": "/react-yandex-maps/static/media/18.1467c71cfbad9c306acc.jpg",
+    "static/media/41.jpg": "/react-yandex-maps/static/media/41.d071276b04ce514a5e0c.jpg",
+    "static/media/38.jpg": "/react-yandex-maps/static/media/38.85129eecf970028d9235.jpg",
     "static/media/32.jpg": "/react-yandex-maps/static/media/32.e5c8ddb36abf4d68215f.jpg",
     "static/media/30.jpg": "/react-yandex-maps/static/media/30.b650657df250631785f7.jpg",
+    "static/media/37.jpg": "/react-yandex-maps/static/media/37.2ec45c923c267d22efad.jpg",
     "static/media/6.jpg": "/react-yandex-maps/static/media/6.efd4070368e6a69c1be9.jpg",
+    "static/media/39.jpg": "/react-yandex-maps/static/media/39.d409bac5dbc5071112f7.jpg",
     "static/media/5.jpg": "/react-yandex-maps/static/media/5.8c48fb205be5d3a33050.jpg",
     "static/media/16.jpg": "/react-yandex-maps/static/media/16.b6a41f744253f738d0a6.jpg",
     "static/media/9.jpg": "/react-yandex-maps/static/media/9.176e7f1b17a2a147bf8b.jpg",
+    "static/media/36.jpg": "/react-yandex-maps/static/media/36.35f14b94e1a24c913a6c.jpg",
+    "static/media/40.jpg": "/react-yandex-maps/static/media/40.6781f6ed4a1209bebe09.jpg",
+    "static/media/44.jpg": "/react-yandex-maps/static/media/44.0afc5d4616f381f544f3.jpg",
     "static/media/26.jpg": "/react-yandex-maps/static/media/26.0fe46bb9fbe5765a376e.jpg",
+    "static/media/42.jpg": "/react-yandex-maps/static/media/42.473a2a58c23561786b1a.jpg",
     "static/media/17.jpg": "/react-yandex-maps/static/media/17.a4007032cbd2092f21d8.jpg",
+    "static/media/47.jpg": "/react-yandex-maps/static/media/47.2e0c71a6459299be0b0a.jpg",
+    "static/media/43.jpg": "/react-yandex-maps/static/media/43.967f49ed720789cfd58a.jpg",
+    "static/media/46.jpg": "/react-yandex-maps/static/media/46.244f2443d0e0dc3c6861.jpg",
+    "static/media/45.jpg": "/react-yandex-maps/static/media/45.81bc99cb3d5e1e095816.jpg",
+    "static/media/48.jpg": "/react-yandex-maps/static/media/48.58638c12ccb088b18f9a.jpg",
+    "static/media/49.jpg": "/react-yandex-maps/static/media/49.c5000a82b494a47a9f08.jpg",
     "index.html": "/react-yandex-maps/index.html",
-    "main.2d15248d.css.map": "/react-yandex-maps/static/css/main.2d15248d.css.map",
-    "main.fcf4554f.js.map": "/react-yandex-maps/static/js/main.fcf4554f.js.map",
+    "main.59280a2e.css.map": "/react-yandex-maps/static/css/main.59280a2e.css.map",
+    "main.72b9cf57.js.map": "/react-yandex-maps/static/js/main.72b9cf57.js.map",
     "787.bfce0c05.chunk.js.map": "/react-yandex-maps/static/js/787.bfce0c05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d15248d.css",
-    "static/js/main.fcf4554f.js"
+    "static/css/main.59280a2e.css",
+    "static/js/main.72b9cf57.js"
   ]
 }
