@@ -12,10 +12,26 @@
     align-items: center;
     text-decoration: none;
 
+    svg {
+      transition: 0.3s;
+    }
+
     p {
       margin-left: 5px;
       color: #FFF;
       font-weight: bold;
+      transition: 0.3s;
+    }
+
+    &:hover {
+      svg {
+        fill: lime;
+      }
+
+      p {
+        color: lime;
+      }
+
     }
 
   }

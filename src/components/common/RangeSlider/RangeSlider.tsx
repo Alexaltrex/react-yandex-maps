@@ -34,9 +34,10 @@ export const RangeSlider: FC<IRangeSlider> = observer(({
                     max={yearMaxConst}
                     sx={{
                         "& .MuiSlider-thumb": {
-                            width: 40,
-                            borderRadius: 0,
-                            border: "1px solid #FFF",
+                            //width: 40,
+                            //height: 10,
+                            //borderRadius: 0,
+                            //border: "1px solid #FFF",
 
                             "&.Mui-active": {
                                 boxShadow: "none",
@@ -54,12 +55,13 @@ export const RangeSlider: FC<IRangeSlider> = observer(({
 
                         "& .MuiSlider-track": {
                             borderRadius: 0,
+                            //height: 20,
                         },
 
                         "& .MuiSlider-valueLabel": {
-                            backgroundColor: "transparent",
-                            transform: "none",
-                            top: "23px",
+                            //backgroundColor: "transparent",
+                            //transform: "none",
+                            //top: "23px",
 
                             "&:before": {
                                 display: "none",

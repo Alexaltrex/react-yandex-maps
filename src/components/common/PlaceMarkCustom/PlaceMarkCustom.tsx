@@ -75,10 +75,6 @@ export const PlaceMarkCustom: FC<IPlaceMarkCustom> = ({
         //@ts-ignore
         : selectedId === id ? pointSelected[String(direction)] : point[String(direction)]
 
-
-    /// point[String(direction)]
-
-
     return (
         <Placemark modules={['geoObject.addon.hint']}
                    geometry={geometry}

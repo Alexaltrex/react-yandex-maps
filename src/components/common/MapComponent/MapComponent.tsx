@@ -1,10 +1,10 @@
-import {Clusterer, Map} from "react-yandex-maps";
+import {Clusterer, Map, withYMaps} from "react-yandex-maps";
 import React, {FC} from "react";
 import "./mapComponent.scss";
-import {placeMarkDataMock} from "../../data.mock";
-import {PlaceMarkCustom} from "../common/PlaceMarkCustom/PlaceMarkCustom";
+import {placeMarkDataMock} from "../../../data.mock";
+import {PlaceMarkCustom} from "../PlaceMarkCustom/PlaceMarkCustom";
 import {observer} from "mobx-react-lite";
-import {useStore} from "../../store/useStore";
+import {useStore} from "../../../store/useStore";
 
 interface IMapComponent {
     className: string
@@ -13,14 +13,14 @@ interface IMapComponent {
 }
 
 export const MapComponent: FC<IMapComponent> = observer(({
-                                                    className,
-                                                    center = [55.55326511694859, 34.99684895533231],
-                                                    selectedId = null
-                                                }) => {
+                                                             className,
+                                                             center = [55.55326511694859, 34.99684895533231],
+                                                             selectedId = null
+                                                         }) => {
     const {appStore: {yearMin, yearMax}} = useStore();
 
     return (
-        <Map defaultState={{
+        <Map state={{
             center,
             zoom: 15,
             controls: [
@@ -35,7 +35,8 @@ export const MapComponent: FC<IMapComponent> = observer(({
         >
             <Clusterer options={{
                 preset: 'islands#invertedVioletClusterIcons',
-                groupByCoordinates: false
+                groupByCoordinates: false,
+                gridSize: 8
             }}>
                 {
                     placeMarkDataMock
@@ -51,8 +52,8 @@ export const MapComponent: FC<IMapComponent> = observer(({
                     ))
                 }
             </Clusterer>
-
         </Map>
     )
 })
+
 

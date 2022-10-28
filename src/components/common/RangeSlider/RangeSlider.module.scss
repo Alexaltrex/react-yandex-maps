@@ -8,10 +8,32 @@
   & span {
     span {
       &:nth-child(3) {
-        transform: translate(-100%, -50%) !important;
+        //transform: translate(-100%, -50%) !important;
+        width: 0;
+        height: 0;
+        border: none;
+
+        & > span {
+          background-color: royalblue;
+          width: 40px;
+          padding: 0;
+          text-align: center;
+          transform: translate(-50%, 0);
+        }
       }
       &:nth-child(4) {
-        transform: translate(0%, -50%) !important;
+        //transform: translate(0%, -50%) !important;
+        width: 0;
+        height: 0;
+        border: none;
+
+        & > span {
+          background-color: royalblue;
+          width: 40px;
+          padding: 0;
+          text-align: center;
+          transform: translate(50%, 0);
+        }
       }
     }
   }

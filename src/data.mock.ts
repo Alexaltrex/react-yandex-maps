@@ -38,6 +38,23 @@ import img32_small from "./assets/jpg/mini/32.jpg";
 import img33_small from "./assets/jpg/mini/33.jpg";
 import img34_small from "./assets/jpg/mini/34.jpg";
 
+import img35_small from "./assets/jpg/mini/36.jpg";
+import img36_small from "./assets/jpg/mini/36.jpg";
+import img37_small from "./assets/jpg/mini/37.jpg";
+import img38_small from "./assets/jpg/mini/38.jpg";
+import img39_small from "./assets/jpg/mini/39.jpg";
+import img40_small from "./assets/jpg/mini/40.jpg";
+import img41_small from "./assets/jpg/mini/41.jpg";
+
+import img42_small from "./assets/jpg/mini/42.jpg";
+import img43_small from "./assets/jpg/mini/43.jpg";
+import img44_small from "./assets/jpg/mini/44.jpg";
+import img45_small from "./assets/jpg/mini/45.jpg";
+import img46_small from "./assets/jpg/mini/46.jpg";
+import img47_small from "./assets/jpg/mini/47.jpg";
+import img48_small from "./assets/jpg/mini/48.jpg";
+import img49_small from "./assets/jpg/mini/49.jpg";
+
 import img0_full from "./assets/jpg/full/0.jpg";
 import img1_full from "./assets/jpg/full/1.jpg";
 import img2_full from "./assets/jpg/full/2.jpg";
@@ -75,6 +92,23 @@ import img31_full from "./assets/jpg/full/31.jpg";
 import img32_full from "./assets/jpg/full/32.jpg";
 import img33_full from "./assets/jpg/full/33.jpg";
 import img34_full from "./assets/jpg/full/34.jpg";
+
+import img35_full from "./assets/jpg/full/36.jpg";
+import img36_full from "./assets/jpg/full/36.jpg";
+import img37_full from "./assets/jpg/full/37.jpg";
+import img38_full from "./assets/jpg/full/38.jpg";
+import img39_full from "./assets/jpg/full/39.jpg";
+import img40_full from "./assets/jpg/full/40.jpg";
+import img41_full from "./assets/jpg/full/41.jpg";
+
+import img42_full from "./assets/jpg/full/42.jpg";
+import img43_full from "./assets/jpg/full/43.jpg";
+import img44_full from "./assets/jpg/full/44.jpg";
+import img45_full from "./assets/jpg/full/45.jpg";
+import img46_full from "./assets/jpg/full/46.jpg";
+import img47_full from "./assets/jpg/full/47.jpg";
+import img48_full from "./assets/jpg/full/48.jpg";
+import img49_full from "./assets/jpg/full/49.jpg";
 
 export const placeMarkDataMock: IPlaceMark[] = [
     {
@@ -499,6 +533,188 @@ export const placeMarkDataMock: IPlaceMark[] = [
             full: img34_full,
         },
         year: [1975, 1975],
+    },
+    /////////////////////////////////////////////////////
+    {
+        id: "35",
+        title: "Волоколамская улица",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.55366472435584,35.0032556970519],
+        direction: 0,
+        img: {
+            small: img35_small,
+            full: img35_full,
+        },
+        year: [1941, 1941],
+    },
+    {
+        id: "36",
+        title: "Волоколамская улица",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.55388822548771,35.00268706874074],
+        direction: 2,
+        img: {
+            small: img36_small,
+            full: img36_full,
+        },
+        year: [1941, 1941],
+    },
+    {
+        id: "37",
+        title: "Благовещенский собор",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.55475789121354,35.002756806175135],
+        direction: 7,
+        img: {
+            small: img37_small,
+            full: img37_full,
+        },
+        year: [1941, 1941],
+    },
+    {
+        id: "38",
+        title: "Казанская церковь",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.553092531215825,34.996852230869756],
+        direction: 3,
+        img: {
+            small: img38_small,
+            full: img38_full,
+        },
+        year: [1941, 1941],
+    },
+    {
+        id: "39",
+        title: "Благовещенский собор",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.55372170426031,35.000781391673726],
+        direction: 1,
+        img: {
+            small: img39_small,
+            full: img39_full,
+        },
+        year: [1941, 1943],
+    },
+    {
+        id: "40",
+        title: "Смоленская улица",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.55074669002041,34.99691185691953],
+        direction: 0,
+        img: {
+            small: img40_small,
+            full: img40_full,
+        },
+        year: [1942, 1942],
+    },
+    {
+        id: "41",
+        title: "Смоленская улица",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.55124846288584,34.99712643364074],
+        direction: 2,
+        img: {
+            small: img41_small,
+            full: img41_full,
+        },
+        year: [1941, 1941],
+    },
+    ///////////////////////////////////////////////////////
+    {
+        id: "42",
+        title: "Калужская улица",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.55275584594933,35.00375340585376],
+        direction: 7,
+        img: {
+            small: img42_small,
+            full: img42_full,
+        },
+        year: [1900, 1910],
+    },
+    {
+        id: "43",
+        title: "Мостовая улица",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.553564463488684,34.997485132249466],
+        direction: 2,
+        img: {
+            small: img43_small,
+            full: img43_full,
+        },
+        year: [1900, 1910],
+    },
+    {
+        id: "44",
+        title: "Александровская женская гимназия",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.548773915920115,34.99555276934425],
+        direction: 7,
+        img: {
+            small: img44_small,
+            full: img44_full,
+        },
+        year: [1900, 1910],
+    },
+    {
+        id: "45",
+        title: "Вокзал",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.544182246346544,34.98628402921489],
+        direction: 5,
+        img: {
+            small: img45_small,
+            full: img45_full,
+        },
+        year: [1900, 1910],
+    },
+    {
+        id: "46",
+        title: "Земская Управа",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.54454723391456,34.992678415506404],
+        direction: 0,
+        img: {
+            small: img46_small,
+            full: img46_full,
+        },
+        year: [1900, 1910],
+    },
+    {
+        id: "47",
+        title: "Женская прогимназия",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.549047978412865,34.99574751275497],
+        direction: 5,
+        img: {
+            small: img47_small,
+            full: img47_full,
+        },
+        year: [1900, 1910],
+    },
+    {
+        id: "48",
+        title: "Городской сад и Петербургская улица",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.55627940144886,34.995636623274656],
+        direction: 4,
+        img: {
+            small: img48_small,
+            full: img48_full,
+        },
+        year: [1900, 1910],
+    },
+    {
+        id: "49",
+        title: "Мост через реку Гжать",
+        source: 'https://gzhatsk.ru',
+        geometry: [55.55461745051721,35.00068973902014],
+        direction: 4,
+        img: {
+            small: img49_small,
+            full: img49_full,
+        },
+        year: [1900, 1910],
     },
 
 ]

@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./PhotoPage.module.scss"
 import { useParams } from 'react-router-dom';
-import {MapComponent} from "../B0_MapComponent/MapComponent";
+import {MapComponent} from "../common/MapComponent/MapComponent";
 import {placeMarkDataMock} from "../../data.mock";
 import {IPlaceMark} from "../../types/types";
 import {RangeSlider} from "../common/RangeSlider/RangeSlider";
