@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-yandex-maps/static/css/main.6d0fd068.css",
-    "main.js": "/react-yandex-maps/static/js/main.e3eb7606.js",
+    "main.css": "/react-yandex-maps/static/css/main.2d15248d.css",
+    "main.js": "/react-yandex-maps/static/js/main.fcf4554f.js",
     "static/js/787.bfce0c05.chunk.js": "/react-yandex-maps/static/js/787.bfce0c05.chunk.js",
     "static/media/0.jpg": "/react-yandex-maps/static/media/0.a8c8cb348a999bdf5c0d.jpg",
     "static/media/1.jpg": "/react-yandex-maps/static/media/1.77fd713773752b35bdd5.jpg",
@@ -39,12 +39,12 @@
     "static/media/26.jpg": "/react-yandex-maps/static/media/26.0fe46bb9fbe5765a376e.jpg",
     "static/media/17.jpg": "/react-yandex-maps/static/media/17.a4007032cbd2092f21d8.jpg",
     "index.html": "/react-yandex-maps/index.html",
-    "main.6d0fd068.css.map": "/react-yandex-maps/static/css/main.6d0fd068.css.map",
-    "main.e3eb7606.js.map": "/react-yandex-maps/static/js/main.e3eb7606.js.map",
+    "main.2d15248d.css.map": "/react-yandex-maps/static/css/main.2d15248d.css.map",
+    "main.fcf4554f.js.map": "/react-yandex-maps/static/js/main.fcf4554f.js.map",
     "787.bfce0c05.chunk.js.map": "/react-yandex-maps/static/js/787.bfce0c05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d0fd068.css",
-    "static/js/main.e3eb7606.js"
+    "static/css/main.2d15248d.css",
+    "static/js/main.fcf4554f.js"
   ]
 }
